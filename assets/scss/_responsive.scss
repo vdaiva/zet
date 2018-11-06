@@ -1,0 +1,239 @@
+@media all and (max-width: 600px) {
+  //Burger start
+  .top-nav .container {
+    padding: 0 15px;
+  }
+  .burger {
+    text-align: -webkit-right;
+    display: block;
+    padding: 20px 0;
+    .line {
+      width: 35px;
+      height: 5px;
+      border-radius: 10%;
+      background-color: $light-grey;
+      margin: 6px 0;
+    }
+  }
+  .nav {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 0.4s ease-out;
+  }
+  .open {
+    max-height: 500px;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.4s ease-in;
+  }
+  .top-nav .logo {
+    position: absolute;
+    top: 0;
+  }
+  nav {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li a {
+    display: block;
+    padding: 8px 0
+  }
+  nav ul li:active {
+    background-color: transparent;
+  }
+  //Burger end
+  //Hero start
+  .hero-content {
+    padding: 0 15px 80px;
+    p {
+      line-height: 1.5;
+      margin: 0;
+    }
+  }
+  .hero .arrow {
+    bottom: 50px;
+  }
+  //Hero end
+  .services-columns .column {
+    width: 100%;
+  }
+  .picture {
+    width: 100%;
+  }
+  //Team start
+  .team-columns {
+    justify-content: space-around;
+    .column {
+      max-width: 100%;
+    }
+  }
+  //Team end
+  //Pricing start
+  .pricing-columns .column {
+    width: 100%;
+    margin: 30px 20px 0 20px;
+  }
+  .column .standart-pack {
+    max-width: 100%;
+  }
+  //Pricing end
+  //Contct start
+  .contact {
+    display: block;
+    .map {
+      width: 100%;
+    }
+    .map iframe {
+      display: block;
+    }
+  }
+  .contact-bg {
+    width: 100%;
+  }
+  .form-row input {
+    width: 70%;
+  }
+  .form-row textarea {
+    width: 70%;
+  }
+  //Contct end
+  //Footer start
+  footer .container {
+    justify-content: space-around;
+    p {
+      width: 100%;
+      text-align: center;
+      padding-left: 0;
+    }
+    .logo {
+      flex-wrap: wrap;
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 0;
+      a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .social-icons {
+      flex-wrap: wrap;
+      padding-top: 0;
+    }
+  }
+}
+@media all and (min-width: 600px) and (max-width: 800px) {
+  //Burger start
+  .top-nav .container {
+    padding: 0 15px;
+  }
+  .burger {
+    text-align: -webkit-right;
+    display: block;
+    padding: 20px 0;
+    .line {
+      width: 35px;
+      height: 5px;
+      border-radius: 10%;
+      background-color: $light-grey;
+      margin: 6px 0;
+    }
+  }
+  .nav {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 0.4s ease-out;
+  }
+  .open {
+    max-height: 500px;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.4s ease-in;
+  }
+  .top-nav .logo {
+    position: absolute;
+    top: 0;
+  }
+  nav {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li a {
+    display: block;
+    padding: 8px 0
+  }
+  nav ul li:active {
+    background-color: transparent;
+  }
+  //Burger end
+  .services-columns .column {
+    width: 50%;
+  }
+  .picture {
+    width: 50%;
+  }
+  //Team Starts
+  .team-columns {
+    justify-content: space-around;
+  }
+  .team-columns .column {
+    max-width: 50%;
+  }
+  //Team end
+  //Pricing start
+  .pricing-columns .column {
+    width: 46%;
+    justify-content: center;
+    margin: 30px 2%;
+  }
+  .column .standart-pack {
+    max-width: 100%;
+  }
+  //Pricing end
+  .contact {
+    display: block;
+    .map {
+      width: 100%;
+    }
+    .map iframe {
+      display: block;
+    }
+  }
+  .contact-bg {
+    width: 100%;
+  }
+  //Footer start
+  footer .container {
+    justify-content: space-around;
+    p {
+      width: 100%;
+      text-align: center;
+      padding-left: 0;
+    }
+    .logo {
+      flex-wrap: wrap;
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 0;
+      a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .social-icons {
+      flex-wrap: wrap;
+      padding-top: 0;
+    }
+  }
+}
+
+@media all and (min-width: 800px) and (max-width: 1200px) {
+  .picture {
+    width: calc(100% / 3);
+  }
+}
